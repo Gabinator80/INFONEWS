@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <title>Infonews - Dick Cheney rachète Discord</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Libre+Barcode+128&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+    body {
+      font-family: Roboto;
+    }
+    .centered-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      margin-top: 50px;
+      border-radius: 10px;
+    }
+    #article-title {
+      font-size: 60px;
+    }
+    text-template {
+      animation: 1s ease-in-out slide-open;
+    }
+    img {
+      animation: slide-open 1s ease-in-out;
+      margin-top: 30px;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+      transform: scale(1);
+    }
+    img:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    p {
+        text-align: center;
+        padding: 50px;
+        font-size: 20px;
+    }
+    @keyframes slide-open {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      img {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="pageM">
+    <nav class="navbar navbar-expand-lg bg-dark text-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html">InfoNews</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="err.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="err.html">Nouveautés</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search" id="search-form">
+            <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Rechercher" id="search-input">
+            <button class="btn btn-outline-success" type="submit">Rechercher</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="mt-5">
+      <h1 class="text-center" id="article-title">Dick Cheney rachète Discord</h1>
+      <p id="article-info" class="mt-0">Publié par Gabin & Noa le 02/04/25</p>
+    </div>
+    <img src="./images/dick_cheney.jpg" class="centered-image">
+    <div id="pre-text">
+        <p>
+      Dans une annonce qui a choqué l’industrie technologique et pétrolière, l'ex-vice-président des 
+      États-Unis, Dick Cheney, <br> a confirmé l'acquisition de Discord pour un montant
+      record de 12 milliards de dollars. La plateforme de communication, <br> connue pour ses millions d’utilisateurs dans le monde 
+      des jeux vidéo et des communautés en ligne, devient <br>ainsi le dernier investissement dans la carrière controversée de Cheney, <br>
+      après une série de manœuvres financières dans le secteur énergétique en Afrique et au Moyen Orient.
+    </p>
+    </div>
+    <img src="./images/nooo.png" alt="discord-image-cheney" class="centered-image">
+    <div id="p-2">
+        <p>
+      Cheney, célèbre pour son rôle dans l'administration Bush et ses liens profonds <br> avec l'industrie pétrolière, 
+      a révélé qu'il utilisera Discord pour “redéfinir le futur du numériques, <br> tout en soutenant 
+      le domaine énergétiques mondial”. Selon des sources proches du dossier, <br>l’objectif derrière cet achat est de 
+      créer une plateforme qui combine les forces de la communication instantanée avec dedans de <br> 
+      l'économique innovant visant à récolter des fonds pour ses projets pétroliers en Afrique et au Moyen-Orient.
+    </p>
+    </div>
+    <img src="./images/petrol_cheney.jpg" alt="Dick_chenney_dans_son_usine_de_petrole" class="centered-image">
+    <div id="p-3">
+        <p>
+      <em>"Discord est plus qu'une simple plateforme de chat en ligne, c’est une opportunité de créer un environnement où les gens peuvent discuter, <br> débattre et, surtout, financer de nouvelles opportunités dans le secteur énergétique"</em>
+      <br>Dick Cheney interview 1 avril 2025
+    </p>
+    </div>
+    <img src="./images/tweet.png" alt="tweet_de_dick_chenney" class="centered-image">
+    <div>
+        <p>
+      Les utilisateurs de Discord, eux, sont inquiets. <br> Beaucoup redoutent la transformation de la plateforme en un réseau exclusivement fais pour les intérêts <br>pétroliers, avec des publicités et des contenus sponsorisés sur la "transition énergétique".
+      L’annonce a également fait <br> des interrogations sur l’indépendance des communautés en ligne et leur rôle dans l’information <br>dans un monde de plus en plus dominé par les grandes puissances économiques.
+    </p>
+    </div>
+    <img src="./images/dicckkk.jpg" alt="dick_chenney_image" class="centered-image">
+    <div>
+        <p>
+      L’annonce a également fait des interrogations sur l’indépendance des communautés en ligne et leur rôle dans l’information <br>
+      dans un monde de plus en plus dominé par les grandes puissances économiques. L’exemple de l’achat de Discord par Cheney pourrait marquer <br>
+      un changement dans l’évolution des plateformes numériques, et remettre en question leur objectif de liberté d’expression. <br>
+      Il y'a aussi certaines rumeurs sur le fait de serveurs discord (qui sont des places de discution sur le réseau) qui venderai des NFT.
+      </p>
+    </div>
+  </div>
+</body>
+<script>
+document.getElementById('search-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêche le rechargement de la page
+    const query = document.getElementById('search-input').value.trim().toLowerCase();
+
+    if (query === 'shrek') {
+      window.location.href = 'shrek.html';
+    } else {
+      console.log('Résultat non trouvé. Essayez "shrek".');
+    }
+  });
+
+
+</script>
+</html>
